@@ -1,0 +1,146 @@
+
+
+.main{
+    display: block;
+    padding: 4rem;
+    text-align: center;
+    margin-top: 8%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    max-width: 1440;
+    min-width: 375px;
+    font-family: 'Spartan', sans-serif;
+    
+}
+
+/*header container */
+.head-container{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 60rem 60rem;
+    margin-top: 0;
+
+
+}
+
+.header{
+    font-size: 8rem;
+    color:hsl(300, 43%, 22%); 
+    text-align:left ;
+}
+.description{
+    font-size: 3rem;
+    color: hsl(303, 10%, 53%);
+    text-align: justify;
+}
+
+
+
+.rate-box{
+    display: flex;
+    margin: 1rem;
+    width: 46rem;
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    border-radius: 15px;
+}
+
+.star{
+    width: 2.5rem;
+    margin-right: 1rem;
+}
+.rate{
+    font-size: 2rem;
+}
+.container-2{
+    margin-left: 5rem;
+}
+
+.container-3{
+    margin-left: 10rem;
+}
+
+/*header container */
+/*review container*/
+
+.review-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.review-box{
+    display: block;
+    width: 500px;
+    height: auto;
+    background-color: hsl(300, 43%, 22%);
+    padding: 4rem;
+    color: white;
+    border-radius: 15px;
+    margin-right: 8rem;
+}
+.review-header{
+    display: flex;
+}
+.image-box{
+    margin: 1.2rem;
+}
+.img{
+    border-radius: 50%;
+
+}
+.review-name{
+   margin-left: 1rem; 
+   margin-top: 2rem;
+   font-size: 1.5rem;
+}
+.review{
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.box-review2{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    
+}
+.box-review3{
+    margin-top: 8rem;
+    
+}
+
+.box-review1{
+    margin-bottom: 8rem;
+    
+}
+.profession{
+    color: hsl(333, 80%, 67%);
+}
+@media (min-width:1500px){
+    .main{
+        margin: 0;
+    }
+}
+
+@media (max-width:1500px){
+    .review-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .head-container{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .rate-box{
+        margin-left: 0;
+    }
+    .review-box{
+        margin-right: 0;
+    }
+}
